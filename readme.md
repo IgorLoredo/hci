@@ -1,2 +1,3 @@
-Trabalho de hci, uma pág web de e-commerce
+Trabalho de hci, uma pág web de e-commerce.
+
 
