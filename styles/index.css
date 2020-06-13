@@ -1,0 +1,29 @@
+
+/* div principal */
+#home{
+    background-position: auto;
+}
+
+#home .head{
+    display:flex;      
+}
+
+/* barra de pesquisa */
+#home header a{
+    display:flex;
+    width: 100%;
+
+    max-width: 300px;
+    margin-left: 500px;
+
+    display: 16px;
+    align-items: center;
+    background-color: rgb(172, 140, 140);
+    
+}
+
+
+
+body{
+    background-color: rgb(248, 249, 250);
+}
