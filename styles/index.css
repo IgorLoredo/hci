@@ -9,19 +9,20 @@
 }
 
 /* barra de pesquisa */
-#home header a{
-    display:flex;
+#home header input{
     width: 100%;
-
-    max-width: 300px;
+    max-width: 3000px;
     margin-left: 500px;
-
-    display: 16px;
-    align-items: center;
-    background-color: rgb(172, 140, 140);
+    border-radius: 5px;
+    background-color: rgb(231, 221, 221);
+    box-sizing: border-box;
     
 }
 
+#home header button{
+    display: flex;
+    align-items: center;
+}
 
 
 body{
