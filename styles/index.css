@@ -1,16 +1,27 @@
 body{
-    background-color: rgb(248, 249, 250);
+    background-color: white;
 }
 
 #content{ 
-	display: flex;
-	position:relative;
-	background-color:rgba(255, 255, 255, 1);
-	opacity:1;
-	width:85%x;
-	height:486px;
+	position: sticky;
+    width: 950px;
+    height: 430px;
+    left: 71px;
+    top: initial;
+
+}
+
+#content1{ 
+	position: sticky;
+    width: 950px;
+    height: 430px;
+    left: 71px;
+    top: 1167px;
+
+    
 }
 #fundo { 
+	grid-row:auto ;
 	display: flex;
 	box-shadow:0px 4px 130px rgba(0, 0, 0, 0.25);
 	background-color:write;
@@ -45,14 +56,12 @@ body{
 
 #preco { 
 	display: flex;
-	color:black;
-	position:absolute;
-	left:800px;
-	top:244px;
-	font-family:Titillium Web;
-	/* text-align:left; */
-	font-size:36px;
-	letter-spacing:0;
+    position: absolute;
+    left: 500px;
+    top: 244px;
+    font-family: Titillium Web;
+    /* text-align: left; */
+    font-size: 36px;
 }
 #desconto{ 
 	color:black;
@@ -66,27 +75,28 @@ body{
 
 }
 #anuncio1{ 
-	width:200px;
-	
-	display:flex;
-	position:absolute;
-	left:549px;
-	top:143px;
-	font-family:Titillium Web;
-	text-align:left;
-	font-size:24px;
+	width: 500px;
+    display: flex;
+    position: absolute;
+    left: 30%;
+    top: 143px;
+    font-family: Titillium Web;
+    text-align: left;
+    font-size: 24px;
 
 }
 
 #cadrastro { 
-	display: flex;
-	position: absolute;
-	align-self: center;
-	background-color:rgba(255, 255, 255, 1);
-	opacity:1;
+	left: 5%;
+	right: 10%;
+	bottom: 24%;
+	display:flex;
+	position: relative;
 	width:90%;
 	height:160px;
 }
+
+
 #candatroVermelho { 
 	display: flex;
 	background-color:rgba(215, 38, 61, 1);
@@ -240,24 +250,41 @@ body{
 
 
 #anuncio { 
-
 	position:relative;
 	background-color:rgba(255, 255, 255, 1);
-	opacity:1;
 	width:233px;
 	height:387px;
 }
-#e48_1 { 
+#grid{
+	position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    width: 40%;
+    height: 387px;
+}
+
+#gridIMG1{
+	position: relative;
+    left: 13%;
+    width: 200px;
+}
+
+#gridIMG1{
+	position: relative;
+    left: 13%;
+    width: 200px;
+}
+#sombraAnuncio { 
 	box-shadow:50px 40px 100px rgba(0, 0, 0, 0.5);
-	background-color:rgba(255, 255, 255, 1);
-	opacity:1;
 	width:233px;
 	height:337px;
 	position:absolute;
-	left:0px;
+	left:10%;
 	top:50px;
 }
-#e61_12 { 
+
+
+#fraseAnuncio1 { 
+	
 	color:rgba(0, 0, 0, 1);
 	opacity:1;
 	width:99px;
@@ -271,23 +298,13 @@ body{
 	letter-spacing:0;
 	line-height:undefined;
 }
-#e58_3 { 
-	opacity:1;
-	width:165px;
-	height:320px;
-	position:absolute;
-	left:25px;
-	top:0px;
-	background-repeat:no-repeat;
-}
-
 
 
 
 #rodape { 
-	position:absolute;
-    bottom:0;
-    width:100%;
+	position: absolute;
+    bottom: unset;
+    width: 100%;
 }
 
 #fundo-rodape{ 
