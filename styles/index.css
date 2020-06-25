@@ -251,13 +251,13 @@ body{
 
 #anuncio { 
 	position:relative;
-	background-color:rgba(255, 255, 255, 1);
+	background-color:rgba(255, 255, 255);
 	width:233px;
 	height:387px;
 }
 #grid{
 	position: relative;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255);
     width: 40%;
     height: 387px;
 }
@@ -273,8 +273,23 @@ body{
     left: 13%;
     width: 200px;
 }
+
+#gridIMG2{
+	position: relative;
+    top: 30%;
+    left: 13%;
+    width: 180px;
+}
+
+#gridIMG3{
+	position: relative;
+    top: 20%;
+    left: 13%;
+    width: 200px;
+}
+
 #sombraAnuncio { 
-	box-shadow:50px 40px 100px rgba(0, 0, 0, 0.5);
+	box-shadow:50px 40px 100px rgba(0, 0, 0, 0.1);
 	width:233px;
 	height:337px;
 	position:absolute;
