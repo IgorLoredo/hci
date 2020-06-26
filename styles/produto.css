@@ -4,46 +4,48 @@
 
 
 #botaoComprar{
-
+    display: inline;
     background-color:red;
 	font-family:Titillium Web;
-     font-size: 30px;
+    font-size: 30px;
 	width:125px; 
 	height:50px;
-	position: relative;
-	left:75%;
-    top:60px;
+    position: relative;
+    top: -150px;
+    left: 1250px;
 	border-radius: 5px;
 }
 
 #cep{
-    display: flex;
+    display: inline;
 	background-color: white;
 	font-size: 20px;
 	width:20%;
 	height:40px;
-	position: relative;;
+	position: absolute;;
 	left:60%;
-	top:10px;
+	top:300px;
 
 }
 
 #botaoCEP{
+    display: inline;
 	background-color:red;
 	font-family:Titillium Web;
     font-size: 20px;
 	width:50px; 
 	height:40px;
-	position: relative;
+	position: absolute;
 	left:82%;
-    top:-33px;
+    top:300px;
 	border-radius: 5px;
 
 }
 
 #mousePainel{
+    right: 10px;
+    position: abuo;
     width: 400px;
-    display: inline;
     background-color: red;
     top: -30px;
 }
